@@ -1,5 +1,5 @@
 # # TenNIS.jl
-# 
+#
 # [![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://itensor.github.io/TenNIS.jl/stable/)
 # [![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://itensor.github.io/TenNIS.jl/dev/)
 # [![Build Status](https://github.com/ITensor/TenNIS.jl/actions/workflows/Tests.yml/badge.svg?branch=main)](https://github.com/ITensor/TenNIS.jl/actions/workflows/Tests.yml?query=branch%3Amain)
@@ -47,13 +47,13 @@ julia> Pkg.add("TenNIS")
 # simultaneously. First:
 # ```julia
 # julia> using Pkg: Pkg
-# 
+#
 # julia> Pkg.dev("TenNIS")
 # ```
 # which installs TenNIS.jl for development, then:
 # ```
 # $ cd ~/.julia/dev/TenNIS
-# 
+#
 # $ pip install -e .
 # ```
 # which installs the associated tennis Python package for development. You should be
