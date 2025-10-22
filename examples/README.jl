@@ -41,7 +41,28 @@ julia> Pkg.add("TenNIS")
 ```
 =#
 
-# ## Examples
+# ## Development workflow
 
-using TenNIS: TenNIS
-# Examples go here.
+# Follow these steps to develop TenNIS.jl and the associated tennis Python package
+# simultaneously. First:
+# ```julia
+# julia> using Pkg: Pkg
+# 
+# julia> Pkg.dev("TenNIS")
+# ```
+# which installs TenNIS.jl for development, then:
+# ```
+# $ cd ~/.julia/dev/TenNIS
+# 
+# $ pip install -e .
+# ```
+# which installs the associated tennis Python package for development. You should be
+# able to run the example using the tennis Python package:
+# ```
+# $ python examples/example.py
+# ```
+# If you edit either the Julia package in `~/.julia/dev/TenNIS/src` or the Python package in
+# `~/.julia/dev/TenNIS/pysrc/tennis`, modifications should show up when you rerun:
+# ```
+# $ python examples/example.py
+# ```
