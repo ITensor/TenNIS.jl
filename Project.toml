@@ -1,0 +1,7 @@
+name = "TenNIS"
+uuid = "1113fa09-e660-4d5c-afd9-bd16691d8c30"
+authors = ["ITensor developers <support@itensor.org> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.10"
